@@ -2,7 +2,7 @@
 
 Turn checklist for Chaos Space Marines (Heretic Astartes) in Warhammer 40,000 11th edition. Shows what you can do in each phase, including Dark Pacts, and tracks CP, detachments and stratagems. Built for phones. One file, no build.
 
-**Live:** https://josefkaplan.github.io/chsm-checklist-11/ (once deployed, see below)
+**Live:** https://josefkaplan.github.io/chsm-checklist-11/
 
 ## Run it locally
 

@@ -21,7 +21,7 @@ It is the same idea as the Necron checklist (`../necron-11th-test-checklist`): s
 
 Open `index.html` in a browser to use it. The game is saved in that browser's `localStorage` only (key `csm-turn-checklist-v1`), so each device and each address has its own save.
 
-**Deployment:** not deployed yet. `origin` is `https://github.com/JosefKaplan/chsm-checklist-11.git`, so the site will be `https://josefkaplan.github.io/chsm-checklist-11/`. Pages serves branch `main`, folder `/ (root)`, with no workflow and no build; `README.md` has the steps. The site is public to anyone with the link; `<meta name="robots" content="noindex, nofollow">` in `index.html` keeps it out of search engines, so leave that tag in.
+**Deployment:** live since 18 November 2026 at `https://josefkaplan.github.io/chsm-checklist-11/` (`origin` is `https://github.com/JosefKaplan/chsm-checklist-11.git`). Pages serves branch `main`, folder `/ (root)`, with no workflow and no build, so a push redeploys it; `README.md` has the steps. The portfolio at `../josefkaplan` links to it from its "VibeCode Tools" section. The site is public to anyone with the link; `<meta name="robots" content="noindex, nofollow">` in `index.html` keeps it out of search engines, so leave that tag in.
 - It lives under a subpath, so the page must not reference files by relative or root-absolute paths (everything is inline, and the test checks it).
 - `localStorage` is shared by every site on `josefkaplan.github.io` (per origin, not per path). The key `csm-turn-checklist-v1` differs from the Necron app's `necron-turn-checklist-v1`; keep keys unique per app.
 - Google Fonts is the only outside request the page makes (blocked in tests).
